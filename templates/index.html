@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temitope Famuyiwa</title>
+    <link rel="stylesheet" href="../assets/styles/portfolio.css">
+    <link rel="stylesheet" href="../assets/styles/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+          <div class="nav-links">
+            <a href="index.html" class="home-link"> TEMITOPE FAMUYIWA </a>
+            <div class="links">
+              <a href="" class="work-link"> Work </a>
+              <a href="https://drive.google.com/file/d/156gPju99y7n2J6AavEXXoaCeoY3D7C0P/view?usp=share_link" 
+              class="resume-link"> Resume </a>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <div class="about w-100 pt-80 pb-80 d-flex">
+        <div class="about-container w-80 mt-80 d-flex">
+            <div class="intro">
+                <div class="top-intro">
+                    <p>&#128075 Hi! I'm <span class="Temi">Temi.</span></p>
+                </div>
+                <div class="text-intro">
+                    <p class="body-p">A UX Designer with experience in Product Management, currently based in Nigeria.</p>
+                    <p class="body-p">I help businesses achieve their goals by building products that solve user's problems with absolute delight.</p>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img class="p-img" src="../assets/images/general/Temitope.png" alt="my-picture">
+            </div>
+        </div>
+    </div>
+    <div class="works w-100 d-flex pt-80 pb-80">
+        <div class="w-80">
+            <p class="h-title">SELECTED WORKS</p>
+            <div class="works-container">
+                <a class="work" href="budi.html">
+                    <div class="work-image">
+                        <img src="../assets/images/general/budi-mockup.png" alt="Budi">
+                    </div>
+                    <div class="work-info w-80">
+                        <p class="sub-title">Budi</p>
+                        <p class="fs-1-5">A mobile app that allow people find events they love and people to go with.</p>
+                    </div>
+                </a>
+                <a class="work" href="first-aider.html">
+                    <div class="work-image">
+                        <img src="../assets/images/general/first-aider-mockup.png" alt="First Aider">
+                    </div>
+                    <div class="work-info">
+                            <p class="sub-title">First Aider</p>
+                            <p class="fs-1-5">Prompt medical assistance to every Nigerian anywhere.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="contact w-100 d-flex pt-80 pb-80 grey-bg">
+        <div class="w-80 d-flex">
+          <div>
+            <p class="sub-title d-flex">Got a project?</p>
+            <p class="d-flex text-muted">
+              Send me an email at&#160
+              <a href="mailto:olutemitopefamuyiwa@gmail.com"
+                >olutemitopefamuyiwa@gmail.com</a
+              > &#160or find me on
+            </p>
+            <div class="socials d-flex">
+              <div class="social">
+                  <a href="#"><img src="../assets/icons/twitter.svg" alt=""></a>
+              </div>
+              <div class="social">
+                  <a href="https://www.linkedin.com/in/temitopefamuyiwa/"><img src="../assets/icons/linkedin.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="footer d-flex">
+              <p>&#169 Designed by Temitope Famuyiwa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script>
+        window.addEventListener('scroll', (e)=>{
+            const nav = document.querySelector('.top-nav');
+            if(window.pageYOffset>0){
+                nav.classList.add("add-shadow");
+            }else{
+                nav.classList.remove("add-shadow");
+            }
+        });
+    </script>
+</body>
+</html>

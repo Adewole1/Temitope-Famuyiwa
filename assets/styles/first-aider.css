@@ -42,12 +42,22 @@ div.grid-2-2 {
 
 img.img-1 {
     position: relative;
-    margin-right: -12.5rem;
+    left: 5rem;
+}
+
+img.img-2 {
+    position: relative;
+    left: -8rem;
+}
+
+img.img-3 {
+    position: relative;
+    left: -5rem;
 }
 
 img.img-left {
     position: relative;
-    margin-right: 9.8rem;
+    left: -5rem;
 }
 
 img.p2-img {

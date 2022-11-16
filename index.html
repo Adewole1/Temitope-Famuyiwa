@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/styles/portfolio.css">
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
           <div class="nav-links">
             <a href="index.html" class="home-link"> TEMITOPE FAMUYIWA </a>
             <div class="links">
-              <a href="" class="work-link"> Work </a>
+              <a href="#works" class="work-link"> Work </a>
               <a href="https://drive.google.com/file/d/156gPju99y7n2J6AavEXXoaCeoY3D7C0P/view?usp=share_link" 
               class="resume-link"> Resume </a>
             </div>
@@ -26,11 +27,15 @@
         <div class="about-container w-80 mt-80 d-flex">
             <div class="intro">
                 <div class="top-intro">
-                    <p>&#128075 Hi! I'm <span class="Temi">Temi.</span></p>
+                    <p class="animated-name">&#128075 Hi! I'm <span class="Temi">Temi.</span></p>
                 </div>
                 <div class="text-intro">
-                    <p class="body-p">A UX Designer with experience in Product Management, currently based in Nigeria.</p>
-                    <p class="body-p">I help businesses achieve their goals by building products that solve user's problems with absolute delight.</p>
+                    <p class="body-p" data-aos="fade-up"
+                    data-aos-once="false"
+                    data-aos-delay="200">A UX Designer with experience in Product Management, currently based in Nigeria.</p>
+                    <p class="body-p" data-aos="fade-up"
+                    data-aos-once="false"
+                    data-aos-delay="400">I help businesses achieve their goals by building products that solve user's problems with absolute delight.</p>
                 </div>
             </div>
             <div class="profile-image">
@@ -38,7 +43,7 @@
             </div>
         </div>
     </div>
-    <div class="works w-100 d-flex pt-80 pb-80">
+    <div id="works" class="works w-100 d-flex pt-80 pb-80">
         <div class="w-80">
             <p class="h-title">SELECTED WORKS</p>
             <div class="works-container">
@@ -97,6 +102,16 @@
                 nav.classList.remove("add-shadow");
             }
         });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing:"ease-in-out",
+        mirror:"true",
+        once:"false",
+    });
     </script>
 </body>
 </html>

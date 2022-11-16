@@ -103,12 +103,12 @@ div.share-text, div.notification-text {
 
 img.rec-1, img.ch-1 {
     position: relative;
-    left: 20%;
+    left: 10%;
 }
 
 img.rec-2, img.ch-2 {
     position: relative;
-    left: -22%;
+    left: -30%;
 }
 
 div.painpoints {

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/styles/first-aider.css" />
     <link rel="stylesheet" href="../assets/styles/portfolio.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
           <div class="nav-links">
             <a href="../index.html" class="home-link"> TEMITOPE FAMUYIWA </a>
             <div class="links">
-              <a href="" class="work-link"> Work </a>
+              <a href="../index.html#works" class="work-link"> Work </a>
               <a href="https://drive.google.com/file/d/156gPju99y7n2J6AavEXXoaCeoY3D7C0P/view?usp=share_link" 
               class="resume-link"> Resume </a>
             </div>
@@ -30,7 +31,9 @@
                 <p class="hero-sub mt-32 sub-title text-center">Prompt assistance to every Nigerian anywhere</p>
             </div>
             <div class="hero-image mt-32 d-flex">
-                <img src="../assets/images/first-aider/first aider screens.png" alt="hero image">
+                <img data-aos="fade-up"
+                data-aos-once="false"
+                src="../assets/images/first-aider/first aider screens.png" alt="hero image">
             </div>
         </div>
     </div>
@@ -38,19 +41,28 @@
     <div class="overview w-100 d-flex pt-80 pb-80">
         <div class="w-80">
             <table class="mt-32">
-                <tr class="fs-1-5">
+                <tr class="fs-1-5" 
+                data-aos="fade-up"
+                data-aos-once="false"
+                data-aos-delay="100">
                     <th class="text-start body-p">Role</th>
                     <th class="text-start body-p">Team</th>
                     <th class="text-start body-p">Tools</th>
                     <th class="text-start body-p">Timeline</th>
                 </tr>
-                <tr class="text-muted fs-1">
+                <tr class="text-muted fs-1" 
+                data-aos="fade-up"
+                data-aos-once="false"
+                data-aos-delay="100">
                     <td>Product Designer</td>
                     <td>Group Project</td>
                     <td>Figma</td>
                     <td>3 weeks</td>
                 </tr>
-                <tr class="text-muted fs-1">
+                <tr class="text-muted fs-1"
+                data-aos="fade-up"
+                data-aos-once="false"
+                data-aos-delay="100">
                     <td>UX Researcher</td>
                 </tr>
             </table>
@@ -59,10 +71,16 @@
     <div class="problem d-flex w-100 pt-80 pb-80">
         <div class="w-80">
             <p class="f-title">PROBLEM</p>
-            <p class="sub-title">
+            <p class="sub-title" 
+            data-aos="fade-up"
+            data-aos-once="false"
+            data-aos-delay="150">
                 Getting medical help in cases of emergency can be very hard if not almost impossible for the aveerage Nigerian.
             </p>
-            <p class="text-muted fs-1-5">
+            <p class="text-muted fs-1-5" 
+            data-aos="fade-up"
+            data-aos-once="false"
+            data-aos-delay="200">
                 In cases of accidents or critical health conditions, getting victims to the nearest health care centre in quick time can prove imposiible given the conditions of our roads, traffic congestion and the need for police reports can also make things even worse.
             </p>
         </div>
@@ -80,13 +98,27 @@
             <p class="f-title">SOLUTION</p>
             <div class="grids-2 reverse d-flex">
                 <div class="grid-1 body-grid">
-                    <p class="text-muted fs-1-5">
+                    <p class="text-muted fs-1-5" 
+                    data-aos="fade-up"
+                    data-aos-once="false"
+                    data-aos-delay="200">
                         Granting users access to fast medical assistance and medical services, from anywhere and at any time.
                     </p>
                 </div>
                 <div class="grid-2-2 d-flex">
-                    <img class="img-1" src="../assets/images/first-aider/call for ambulance.png" alt="ambulance screen">
-                    <img class="img-2" src="../assets/images/first-aider/services.png" alt="services screen">
+                    <img class="img-1" 
+                    data-aos="fade-up-left"
+                    data-aos-once="false"
+                    data-aos-offset="-700"
+                    data-aos-duration="3000"
+                    src="../assets/images/first-aider/call for ambulance.png" alt="ambulance screen">
+                    
+                    <img class="img-2" 
+                    data-aos="fade-up-left"
+                    data-aos-once="false"
+                    data-aos-offset="-100"
+                    data-aos-duration="3000"
+                    src="../assets/images/first-aider/services.png" alt="services screen">
                 </div>
             </div>
         </div>
@@ -94,10 +126,18 @@
     <div class="w-100 d-flex pt-80">
         <div class="grids-2 w-80 d-flex">
             <div class="grid-2-2">
-                <img class="img-3" src="../assets/images/first-aider/emergency contact.png" alt="emergency contact">
+                <img 
+                data-aos="fade-up-right"
+                data-aos-once="false"
+                data-aos-offset="-10000"
+                data-aos-duration="3000" 
+                class="img-3" src="../assets/images/first-aider/emergency contact.png" alt="emergency contact">
             </div>
             <div class="grid-2 body-grid">
-                <p class="text-muted fs-1-5 float-end">
+                <p class="text-muted fs-1-5 float-end" 
+                data-aos="fade-up"
+                data-aos-once="false"
+                data-aos-delay="200">
                     The application allows users to add emergency contact and automatically sends SMS alerts incase of emergency.
                 </p>
             </div>
@@ -106,23 +146,45 @@
     <div class="w-100 d-flex pt-80">
         <div class="grids-2 reverse w-80 d-flex">
             <div class="grid-1 body-grid">
-                <p class="text-muted fs-1-5">
+                <p class="text-muted fs-1-5"
+                data-aos="fade-up"
+                data-aos-once="false"
+                data-aos-delay="200">
                     The app allows a multiple profile feature that enables a user to save the health profile of close ones.
                 </p>
             </div>
             <div class="grid-2-2">
-                <img class="img-left" src="../assets/images/first-aider/First aider multiple profile mockup 1.png" alt="multiple profile screen">
+                <img class="img-left" 
+                data-aos="fade-up-left"
+                data-aos-once="false"
+                data-aos-mirroe="true"
+                data-aos-offset="-10000"
+                data-aos-duration="3000" 
+                src="../assets/images/first-aider/First aider multiple profile mockup 1.png" alt="multiple profile screen">
             </div>
         </div>
     </div>
     <div class="w-100 d-flex pt-80 pb-80">
         <div class="grids-2 w-80 d-flex">
             <div class="grid-2-2 d-flex">
-                <img class="p1-img" src="../assets/images/first-aider/First aider payment plans mockup 1.png" alt="payment plans">
-                <img class="p2-img" src="../assets/images/first-aider/Firstaider payment method mockup 1.png" alt="payment method">
+                <img class="p1-img" 
+                data-aos="fade-up-right"
+                data-aos-once="false"
+                data-aos-offset="-700"
+                data-aos-duration="3000" 
+                src="../assets/images/first-aider/First aider payment plans mockup 1.png" alt="payment plans">
+                <img class="p2-img" 
+                data-aos="fade-up-right"
+                data-aos-once="false"
+                data-aos-offset="-100"
+                data-aos-duration="3000" 
+                src="../assets/images/first-aider/Firstaider payment method mockup 1.png" alt="payment method">
             </div>
             <div class="grid-2 body-grid">
-                <p class="text-muted fs-1-5">
+                <p class="text-muted fs-1-5" 
+                data-aos="fade-up"
+                data-aos-once="false"
+                data-aos-delay="200">
                     Users are on a subscription-based membership. FirstAider is able to partner with network of hospitals and paramedical agencies that are available on the go to offer first-aid services. This allows users to be connected to the nearest partner at request.
                 </p>
             </div>
@@ -144,7 +206,10 @@
     </div>
     <div class="user-story w-100 d-flex">
         <div class="w-80 d-flex">
-            <img class="user-img" src="../assets/images/first-aider/user story.png" alt="user-story">
+            <img class="user-img" 
+            data-aos="fade-in"
+            data-aos-once="false"
+            src="../assets/images/first-aider/user story.png" alt="user-story">
         </div>
     </div>
     <div class="ideation w-100 d-flex red-bg pb-80 pt-80">
@@ -157,7 +222,9 @@
     </div>
     <div class="userflow w-100 d-flex">
         <div class="w-80 d-flex">
-            <img src="../assets/images/first-aider/userflow.png" alt="userflow">
+            <img data-aos="fade-in"
+            data-aos-once="false" 
+            src="../assets/images/first-aider/userflow.png" alt="userflow">
         </div>
     </div>
     <div class="grey-bg pt-80 pb-80">
@@ -226,6 +293,16 @@
                 nav.classList.remove("add-shadow");
             }
         });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing:"ease-in-out",
+        mirror:"true",
+        once:"false",
+    });
     </script>
 </body>
 </html>

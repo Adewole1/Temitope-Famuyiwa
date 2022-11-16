@@ -199,12 +199,12 @@ img.user-img {
 
     img.img-1 {
         position: relative;
-        left: -28%;
+        left: -2%;
     }
 
     img.img-2 {
         position: relative;
-        left: -1%;
+        left: -25%;
     }
     
     img.img-3 {
@@ -215,7 +215,8 @@ img.user-img {
     }
 
     img.img-left {
-        margin-left: -8%;
+        position: relative;
+        left: -15%;
         width: 80%;
         height: auto;
     }
